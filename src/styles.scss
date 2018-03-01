@@ -9,8 +9,8 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://www.google.com/design/spec/style/color.html
-$candy-app-primary: mat-palette($mat-green);
-$candy-app-accent:  mat-palette($mat-lime, A200, A100, A400);
+$candy-app-primary: mat-palette($mat-light-green, 800);
+$candy-app-accent:  mat-palette($mat-teal, A700);
 
 // The warn palette is optional (defaults to red).
 $candy-app-warn:    mat-palette($mat-red);
@@ -23,12 +23,31 @@ $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-
 // that you are using.
 @include angular-material-theme($candy-app-theme);
 
-
 // .example-card {
 //   max-width: 400px;
+// }
+
+// .mat-toolbar.mat-primary {
+//   color: white;
+// }
+
+// .mat-form-field-label {
+//   color: rgba(255, 255, 255, 0.54);
+// }
+
+// .mat-form-field-underline, .mat-focused .mat-form-field-underline {
+//   background-color: rgba(255, 255, 255, 0.42);
 // }
 
 .example-header-image {
   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
 }
