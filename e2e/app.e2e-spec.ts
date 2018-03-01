@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('emiserv App', () => {
+describe('ng2mat2flexlayout App', () => {
   let page: AppPage;
 
   beforeEach(() => {
