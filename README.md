@@ -1,4 +1,4 @@
-# Emiserv
+# ng2 material 2 flex-layout demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
 
